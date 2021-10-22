@@ -1,0 +1,102 @@
+/****************************
+#   Alena CSS Global
+#   @-v 1.0.0 - Creative Ressources production
+****************************/
+*,*::after,*::before,body,
+div, dl, dt, dd, ul, ol,
+li, h1, h2, h3, h4,
+h5, h6, pre, code,
+form, fieldset, legend,
+input, textarea, p,
+blockquote, th, td{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: inherit;
+    content: none;
+}
+html,body{background: #fff;color: #000;}
+
+/****************************
+#   Flexbox
+****************************/
+
+.d-flex-center{display: flex;justify-content: center;}
+.d-flex-between{display: flex; justify-content: space-between;}
+.d-flex-around{display: flex;justify-content: space-around;}
+
+/****************************
+#   Flex Direction
+****************************/
+
+.column{flex-direction: column;}
+.row{flex-direction: row;}
+.r-row{flex-direction: row-reverse;}
+.r-column{flex-direction: column-reverse;}
+
+/****************************
+#   Clip Path
+****************************/
+
+.cp-triangle{clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+.cp-losange{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
+.cp-cercle{clip-path: circle(50% at 50% 50%);}
+.cp-message{clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+.cp-star{clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);}
+
+/****************************
+#   Buttons & Hyperlinks
+****************************/
+.btn{display: inline-block;color: #ffffff;background: #2a2a2a;padding: 15px 10px;font-size: 18px;transition: all 0.4s ease-in-out;border-radius: 5px;width: 200px;text-align: center;align-items: center;}
+.hyper-link{text-decoration: underline;color: royalblue;transition: all 0.4s}
+.hyper-link{color: red;transform: scale(1.02)}
+/****************************
+#   Transform
+****************************/
+.scaleP:hover{transform: scale(1.1);}
+.scaleN:hover{transform: scale(0.9);}
+.rotate:hover{transform: rotate(3deg);}
+.translY:hover{transform: translateY(-8px);}
+/****************************
+#   Font size
+****************************/
+.font16{font-size: 16px;}
+.font18{font-size: 18px;}
+.font20{font-size: 20px;}
+.font25{font-size: 25px;}
+.font30{font-size: 30px;}
+.font50{font-size: 50px;}
+/****************************
+#   Font weight
+****************************/
+.w300{font-weight: 300;}
+.w400{font-weight: 400;}
+.w500{font-weight: 500;}
+.w600{font-weight: 600;}
+.w700{font-weight: 700;}
+.w800{font-weight: 800;}
+.w900{font-weight: 900;}
+.wBold{font-weight: bold;}
+
+/****************************
+#   Text Align
+****************************/
+
+.t-center{text-align: center;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+.t-justify{text-align: justify;}
+
+/****************************
+#   Border Radius
+****************************/
+.radius5{border-radius: 5px;}
+.radius10{border-radius: 10px}
+.radius15{border-radius: 15px;}
+.radius20{border-radius: 20px;}
