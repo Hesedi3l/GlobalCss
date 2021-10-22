@@ -2,7 +2,4 @@
 
 |CATÉGORIES| Attribut |
 |:--|:--|
-|**Flexbox**| 
-* .d-flex-center 
-* .d-flex-between 
-* .d-flex-around
+|**Flexbox**| * .d-flex-center * .d-flex-between * .d-flex-around |
